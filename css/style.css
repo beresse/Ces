@@ -1,0 +1,89 @@
+
+body{
+  background-color: #f9f9ff;
+}
+
+.titre {
+  display: flex;
+  justify-content: center;
+  color: #353252;
+  /* text-shadow: 1px 1px 2px black; */
+}
+/*  
+.titre_rouge {
+  color: #f80c1f;
+}
+.titre_bleu {
+  color: #24ddd7;
+}
+.titre_jaune {
+  color: #ffda37;
+}
+.titre_vert{
+color: #00ff3b;
+}
+*/
+.menu {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.imageDeMoi {
+  height: 100px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.imageDeMoi img {
+  height: 150px;
+}
+.textJeSuis p{
+  text-align: center;
+  margin-top: 70px;
+}
+.reseau{
+  text-align: center;
+}
+.a_propos img{
+  height: 150px;
+  margin-top: 60px;
+  padding-top: 50px;
+
+}
+.a_propos{
+  display: flex;
+  justify-content: space-between;
+}
+.ligne{
+  display: flex;
+  padding-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.btn_msg{
+  text-align: center;
+  padding-top: 40px;
+}
+.nes-container{
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.badgeun{
+  text-align: center;
+}
+
+h4{
+  color: #eb6f59;
+}
+
+.numecoin img{
+  height: 450px;
+  width: 350px;
+}
+
+
+.travaux{
+  text-align: center;}

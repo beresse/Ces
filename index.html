@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Curriculum Entairtenment System</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="titre">
+          <!--<span class="titre_rouge">Mo</span><span class="titre_bleu">ha</span>>
+          <span class="titre_jaune">mm</span>
+          <span class="titre_vert">ed </span> <span> </span> Beressa //-->
+          Mohammed Beressa
+        </h1>
+        <ul class="menu">
+          <a class="nav-link active" aria-current="page" href="#a_propos"
+            >À propos</a
+          >
+          <a class="nav-link" href="#experiences">Expériences</a>
+          <a class="nav-link" href="#travaux_récents">Travaux</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </ul>
+      </div>
+      <div class="imageDeMoi container">
+        <img src="./img/perso/moipix.png" alt="" />
+      </div>
+    </header>
+    <div class="textJeSuis">
+      <p>Je suis un <span id="typed"></span></p>
+    </div>
+    <div class="reseau">
+      <a href="https://www.google.com" class="nes-icon twitter is-medium"></a>
+      <a href="https://www.google.com" class="nes-icon instagram is-medium"></a>
+      <a href="https://www.google.com" class="nes-icon github is-medium"></a>
+      <a href="https://www.google.com" class="nes-icon whatsapp is-medium"></a>
+    </div>
+    <div class="btn_msg">
+      <button type="button" class="nes-btn">Me contacter</button>
+      <a
+        href="./doc/opensource.md"
+        target="_blank"
+        download="Mon CV"
+        class="nes-btn is-success"
+        >Télécharger mon CV</a
+      >
+    </div>
+    <div class="container a_propos">
+      <div class="row ligne">
+        <img class="img_propos" src="./img/perso/moipix.png" alt="" />
+
+        <p class="nes-balloon from-left">
+          Je suis Mohammed, web developer de Paris, je suis diplômé d’un M2 en
+          Histoire et civilisations comparées. Je possède une riche expérience
+          dans la conception et la réalisation de sites web et de
+          personnalisation, je suis également bon avec WordPress. La polyvalence
+          et la richesse de mon parcours font de mon profil un atout.
+        </p>
+      </div>
+    </div>
+    <div class="nes-container with-title">
+      <p class="title">Progression</p>
+
+      <div>
+        <p>Développement</p>
+        <progress class="nes-progress" value="83" max="100"></progress>
+      </div>
+      <div>
+        <p>WordPress</p>
+        <progress class="nes-progress is-error" value="85" max="100"></progress>
+      </div>
+      <div>
+        <p>UI/UX design</p>
+        <progress
+          class="nes-progress is-warning"
+          value="80"
+          max="100"
+        ></progress>
+      </div>
+    </div>
+    <div class="nes-container with-title">
+      <p class="title">Badges</p>
+      <div class="badgeun">
+        <a href="#" class="nes-badge is-splited">
+          <span class="is-dark">CSS</span>
+          <span class="is-error">3</span>
+        </a>
+        <a href="#" class="nes-badge is-splited">
+          <span class="is-dark">HTML</span>
+          <span class="is-primary">5</span>
+        </a>
+        <a href="#" class="nes-badge">
+          <span class="is-warning">WordPress</span>
+        </a>
+        <a href="#" class="nes-badge">
+          <span class="is-success">React</span>
+        </a>
+      </div>
+    </div>
+    <div class="nes-container with-title experience">
+      <p class="title">Expériences</p>
+      <div class="etudes">
+        <div>
+          <i class="nes-icon trophy is-small"></i>
+
+          <span> 2020 - Présent</span>
+          <i class="nes-icon trophy is-small"></i>
+
+          <p>
+            Programme Digitous un parcours intensif visant à former des
+            développeurs full stack.
+          </p>
+        </div>
+        <div>
+          <i class="nes-icon trophy is-small"></i>
+
+          <span>2014 - 2016</span>
+          <i class="nes-icon trophy is-small"></i>
+
+          <h4>Recherche</h4>
+          <p><strong>Sujet:</strong> La révolution fabrique de la démocratie</p>
+        </div>
+        <div>
+          <i class="nes-icon trophy is-small"></i>
+
+          <span>2010 - 2013</span>
+          <i class="nes-icon trophy is-small"></i>
+
+          <h4>Master 2 Histoires</h4>
+          <p>M2 Histoire et Civilisations comparées.</p>
+        </div>
+        <div>
+          <span><i class="nes-icon trophy is-small"></i></span>
+
+          <span>2007 - 2010</span>
+          <span><i class="nes-icon trophy is-small"></i></span>
+          <span><h4>Licence d'Histoire.</h4></span>
+          <p>
+            Acquisition d’une culture historique approfondie et d’un ensemble de
+            compétences en matière d’analyse, de réflexion et de sens critique,
+            applicables aux sociétés du passé comme au monde contemporain.
+          </p>
+        </div>
+      </div>
+      <div class="jobs">
+        <div>
+          <i class="nes-icon coin is-small"></i>
+          <span>2016 - Présent</span>
+          <i class="nes-icon coin is-small"></i>
+          <h4>Webmaster/ Content Manager</h4>
+          <p>
+            En collaboration avec les clients, j’ai travaillé à l’élaboration de
+            l’identité visuelle des sites. De plus par la conception de boutique
+            j'ai pu chapeauter la stratégie marketing. Rédactions de plus de 900
+            articles. Numecoin.fr/ Lightme.fr/ Francoisvigorie.com
+          </p>
+        </div>
+        <div>
+          <i class="nes-icon coin is-small"></i>
+          <span> Mai - Juin 2016</span>
+          <i class="nes-icon coin is-small"></i>
+          <h4>Mairie de Paris | Chargé de projet</h4>
+          <p>
+            <strong>Mission:</strong> gestion des actions sur le territoire. Mon
+            poste étant centralisateur, je fus force de proposition dans
+            l'amélioration dans l’organisation de l'EDL, mon rôle auprès des
+            différents acteurs étant un atout.
+          </p>
+        </div>
+        <div>
+          <i class="nes-icon coin is-small"></i>
+          <span>Nov 2015 - Février 2016</span>
+          <i class="nes-icon coin is-small"></i>
+          <h4>Ministère de la Ville | Chargé de projet</h4>
+          <p>
+            <strong>Mission:</strong> mandaté par la ville de Paris en tant que
+            responsable de territoire, mise en place du Conseil Citoyen et du
+            budget Participatif
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="travaux">
+      <div class="row">
+        <div class="nes-container with-title">
+          <p class="title">Travaux récents</p>
+          <div class="numecoin">
+            <img
+              class="numecoinImg"
+              src="./img/site/www.numecoin.fr_pix.png"
+              alt=""
+            />
+            <img
+              class="numecoinImg"
+              src="./img/site/francoisvigorie.com_pix.png"
+              alt=""
+            />
+            <img
+              class="numecoinImg"
+              src="./img/site/intechparis.fr_pix.png"
+              alt=""
+            />
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!--Script typed.js-->
+    <script>
+      var typed = new Typed("#typed", {
+        strings: [
+          "historien",
+          "UI/UX designer junior",
+          "développeur web front-end junior",
+          "développeur full-stack junior",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        smartBackspace: true, // Default value,
+      });
+    </script>
+  </body>
+</html>
